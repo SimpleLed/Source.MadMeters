@@ -1,12 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics;
-using System.Linq;
 using System.Reflection;
-using System.Text;
-using System.Threading.Tasks;
 using SimpleLed;
-
 
 namespace Source.MadMeters
 {
@@ -106,7 +102,7 @@ namespace Source.MadMeters
                 Id = Guid.Parse("99440d02-8ca3-4e35-a9a3-88b024cc0e2d"),
                 Author = "mad ninja",
                 Blurb = "Monitor your system with your RGB fans and LED strips!",
-                CurrentVersion = new ReleaseNumber(1,0,0,1),
+                CurrentVersion = new ReleaseNumber(1,0,0,2),
                 GitHubLink = "https://github.com/SimpleLed/Source.MadMeters",
                 IsPublicRelease = true
             };
